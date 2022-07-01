@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email-template</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border-spacing: 0;
+        }
+
+        body {
+            width: 100%;
+        }
+        
+        .wrapper {
+            width: 100%;
+            background-color: lightgray;
+            table-layout: fixed;
+        }
+
+        .main {
+            width: 100%;
+            max-width: 600px;
+            background-color: white;
+        }
+
+        .two-columns {
+            width: 100%;
+            max-width: 300px;
+            font-size: 0;
+        }
+
+        .two-columns .column {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <center class="wrapper">
+        
+        <table class="main" width="100%">
+
+            <!-- HEADER LINE --> 
+            <tr>
+                <td class="line" width="100%" height="8px" style="background-color: #0F0F0F;"></td>
+            </tr>
+
+            <!-- HEADER LOGO WITH SOCIAL -->
+                
+                <tr>
+                    <td style="padding: 14px 0 4px;">
+                       <table width="100%"> 
+                            <tr>
+                                <td class="two-columns">
+                                    <table class="column">
+                                        <tr>
+                                            <td style="padding: 0px 62px;">
+                                                <a href="#"><img src="img/modern.jpg" width="180px" alt="header-modern-logo"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td style="padding: 10px 0 0 40px">
+                                                <a href="#"><img src="img/black-facebook.png" width="30px" alt="header-social-fb"></a>
+                                                <a href="#"><img src="img/black-twitter.png" width="30px" alt="header-social-tw"></a>
+                                                <a href="#"><img src="img/black-youtube.png" width="30px" alt="header-social-you"></a>
+                                                <a href="#"><img src="img/black-linkedin.png" width="30px" alt="header-social-lin"></a>
+                                                <a href="#"><img src="img/black-instagram.png" width="30px" alt="header-social-inst"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                       </table> 
+                    </td>
+                </tr>
+
+               
+        </table>
+
+    </center>
+
+</body>
+</html>

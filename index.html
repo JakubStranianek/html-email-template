@@ -30,14 +30,57 @@
         }
 
         .two-columns {
-            width: 100%;
-            max-width: 300px;
             font-size: 0;
+            text-align: center;
         }
 
         .two-columns .column {
+            width: 100%;
+            max-width: 300px;
             display: inline-block;
             vertical-align: top;
+        }
+
+        .three-columns {
+            font-size: 0;
+            text-align: center;
+            padding: 15px 0 25px;
+        }
+
+        .three-columns .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .padding {
+            padding: 15px;
+        }
+
+        .two-columns.last {
+            padding: 15px 0;
+        }
+
+        
+        .two-columns .padding {
+            padding: 20px;
+        }
+
+        .two-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+
+        .button {
+            background-color: white;
+            color: #222426;
+            padding: 12px 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
         }
 
     </style>
@@ -62,7 +105,7 @@
                                 <td class="two-columns">
                                     <table class="column">
                                         <tr>
-                                            <td style="padding: 0px 62px;">
+                                            <td style="padding: 0px 62px 10px;">
                                                 <a href="#"><img src="img/modern.jpg" width="180px" alt="header-modern-logo"></a>
                                             </td>
                                         </tr>
@@ -70,7 +113,7 @@
 
                                     <table class="column">
                                         <tr>
-                                            <td style="padding: 10px 0 0 40px">
+                                            <td style="padding: 10px 72px">
                                                 <a href="#"><img src="img/black-facebook.png" width="30px" alt="header-social-fb"></a>
                                                 <a href="#"><img src="img/black-twitter.png" width="30px" alt="header-social-tw"></a>
                                                 <a href="#"><img src="img/black-youtube.png" width="30px" alt="header-social-you"></a>
@@ -85,7 +128,130 @@
                     </td>
                 </tr>
 
-               
+               <!-- BANNER WITH BUTTON -->
+
+               <tr>
+                   <td>
+                     <a href="#"><img src="/img/banner.jpg" alt="banner" width="600px" style="max-width: 100%;"></a>
+                   </td> 
+               </tr>
+
+                <!-- THREE COLUMN SECTION -->
+
+                <tr>
+                    <td>
+                        <!-- Obalovacia tabulka -->
+                        <table width="100%">
+                            <tr>
+                                <td class="three-columns">
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <img src="/img/email.png" alt="email" width="130px" style="max-width: 130px;">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-size: 17px;"><strong>Ecommerce</strong></p>
+                                                            <p style="font-size: 15px; line-height: 20px;">Responsive HTML Email Template Course to master email development</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <img src="/img/settings.png" alt="settings" width="130px" style="max-width: 130px;">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-size: 17px;"><strong>Web Design</strong></p>
+                                                            <p style="font-size: 15px; line-height: 20px;">Responsive HTML Email Template Course to master email development</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <img src="/img/home.png" alt="home" width="130px" style="max-width: 130px;">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-size: 17px;"><strong>HTML Email</strong></p>
+                                                            <p style="font-size: 15px; line-height: 20px;">Responsive HTML Email Template Course to master email development</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- DARK BG TWO COLUMN -->
+                <tr>
+                    <td>
+                        <table width="100%" style="background-color: #222426;">
+                            <tr>
+                                <td class="two-columns last">
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <img src="/img/keyboard.jpg" alt="keyboard" width="260px" style="max-width: 260px;">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td style="color:white;">
+                                                            <p style="font-weight: bold; font-size: 18px; margin-top: 20px;">Create Custom Designs</p>
+                                                             <p style="font-size: 16px; padding-top:10px; padding-bottom: 24px;">Over the years we have built up a massive portfolio our client website and email designs</p>
+                                                             <a href="#" class="button">Read More</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
         </table>
 
     </center>
